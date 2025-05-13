@@ -44,7 +44,7 @@ h2 {
 .section {
   margin-top: 2rem;
   margin-bottom: 2rem;
-} 
+}
 
 /*Buttons*/
 
@@ -61,14 +61,14 @@ h2 {
 }
 
 .custom-button-outline {
-    border: 2px solid var(--highlight-color);
-    padding: 7px 25px;
-    color: var(--highlight-color)
+  border: 2px solid var(--highlight-color);
+  padding: 7px 25px;
+  color: var(--highlight-color)
 }
 
 .custom-button-outline:hover {
-    background-color: var(--highlight-color);
-    color: white
+  background-color: var(--highlight-color);
+  color: white
 }
 
 /* Navbar */
@@ -104,6 +104,22 @@ h2 {
 #new-games .card,
 #fav-games .card {
   border: none;
+}
+
+/*Events*/
+#events .table {
+  font-size: 0.7rem;
+}
+
+.student-discount {
+    background-color: var(--highlight-color);
+    font-weight: bold;
+    color: white;
+    display: block;
+    max-width: 300px;
+    margin: auto;
+    padding: 5px 10px;
+    font-size: 0.8rem;
 }
 
 /*footer/contact*/
@@ -154,6 +170,15 @@ h2 {
 } 
 */
 /* Media queries */
+
+/*Small devices (less then 567px)*/
+@media screen and (min-width: 576px) {
+    #events .table {
+        font-size: 1rem;
+    }
+    .student-discount {
+        font-size: 1rem;
+    }
 
 /* Medium devices (tablets, 768px and up) */
 @media screen and (min-width: 768px) {
